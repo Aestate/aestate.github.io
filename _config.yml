@@ -2,7 +2,7 @@
 title: 遗落浮岛
 SEOTitle: 遗落浮岛 | Flotic
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: pokemew151@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Aestate, Flotic, 萩原的博客"
 url: "http://aestate.github.io"          # your host, for absolute URL
@@ -12,7 +12,7 @@ github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "大概是温柔的"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar-m.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
