@@ -1,7 +1,7 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "遗落浮岛 ‖ Floatic",
+  "short_name": "遗落浮岛",
+  "description": "夏夜中的繁星",
   "icons": [{
     "src": "icons/pwa_icon_128.png",
     "sizes": "128x128",
