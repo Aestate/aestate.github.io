@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 6e3999b9e340903618fb                            #生成的clientID
-  clientSecret: 5a417578853066eb7fa35ddd50ae851501d03fea    #生成的clientSecret
+  clientID: 49ec9c46fafe9b2230f1                            #生成的clientID
+  clientSecret: 2a4c63e340df2b91310b219765ffc34ba497c023    #生成的clientSecret
   repo: aestate.github.io    #仓库名称
   owner: aestate    #github用户名
   admin: aestate
