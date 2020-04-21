@@ -14,9 +14,6 @@
 
 /*===========================================================================*/
 
-namespace RayTracing
-{
-
 struct Ray 
 {
     float3 pos;
@@ -64,5 +61,3 @@ bool compute_intersection(inout Ray ray, in RTConstants rtconstants, in VSOUT i)
 
     return intersected;
 }
-
-} //namespace
