@@ -382,7 +382,7 @@ void PS_RTMain(in VSOUT i, out float4 o : SV_Target0, out float historyconfidenc
     [loop]
     for(int r = 0; r < 0 + rtconstants.nrays; r++)
     {
-        RayTracing::Ray ray;
+        Ray ray;
         ray.pos = rtconstants.pos;
         //generate unit ray, cosine weighted ray density (uniform: use sqrt of z)
         ray.dir.z = (r + sampleset.index) / rtconstants.nrays;
@@ -399,7 +399,7 @@ void PS_RTMain(in VSOUT i, out float4 o : SV_Target0, out float historyconfidenc
         ray.steplen = ray.maxlen * rsqrt(dot(ray.dir.xy, ray.dir.xy) + 1e-3) / rtconstants.nsteps; 
         ray.currlen = ray.steplen * bluenoise.y;
 
-        float intersected = RayTracing::compute_intersection(ray, rtconstants, i);
+        float intersected = compute_intersection(ray, rtconstants, i);
         curr.gi.w += intersected;
 
         if(RT_IL_AMOUNT * intersected == 0) 
